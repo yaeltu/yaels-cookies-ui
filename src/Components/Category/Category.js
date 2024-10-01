@@ -11,6 +11,9 @@ const Container = styled.div`
     text-align: center;
     background-color: #000;
     color: #fff;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 33.3333%;
 `
 
 const Image = styled.img`
