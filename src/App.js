@@ -1,13 +1,12 @@
-import Header from "./Components/Header/Header";
-import Banner from "./Components/Banner/Banner";
-import Catalog from "./Components/Catalog/Catalog";
+import {
+    RouterProvider
+} from "react-router-dom";
+import router from "./configs/router";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Banner />
-      <Catalog />
+        <RouterProvider router={router} />
     </div>
   );
 }
